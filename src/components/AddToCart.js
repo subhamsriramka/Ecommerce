@@ -57,7 +57,7 @@ const AddToCart = ({ product }) => {
                     decrease={decrease} />
             </div>
             <Link to='/cart' className='btn'
-                onClick={() => addToCart(id, mainColor, amount, product)}>add to card</Link>
+                onClick={() => addToCart(id, mainColor, amount, product)}>add to cart</Link>
         </Wrapper>
     )
 }
